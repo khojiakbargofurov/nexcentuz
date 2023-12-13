@@ -1,0 +1,51 @@
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 0;
+  &__list{
+    display: flex;
+    gap: 50px;
+  }
+  &__item{
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+  }
+  &__link{
+    color: #18191F;
+  }
+  &__link:hover{
+    color:#4CAF4F;
+  }
+}
+.logo{
+  display: flex;
+}
+.buttons{
+ display: flex;
+ gap: 14px;
+}
+.btn{
+  background-color: #4CAF4F;
+  font-family: Inter,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  color: white;
+  padding: 10px 20px;
+}
+.login{
+  background-color: white;
+  font-family: Inter,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  color: #4CAF4F;
+  padding: 10px 20px;
+}
+.login:hover{
+  background-color: #4CAF4F;
+  color: white;
+}

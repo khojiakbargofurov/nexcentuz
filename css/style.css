@@ -60,4 +60,67 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 0;
+}
+.nav__list {
+  display: flex;
+  gap: 50px;
+}
+.nav__item {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+}
+.nav__link {
+  color: #18191F;
+}
+.nav__link:hover {
+  color: #4CAF4F;
+}
+
+.logo {
+  display: flex;
+}
+
+.buttons {
+  display: flex;
+  gap: 14px;
+}
+
+.btn {
+  background-color: #4CAF4F;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  color: white;
+  padding: 10px 20px;
+}
+
+.login {
+  background-color: white;
+  font-family: Inter, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  color: #4CAF4F;
+  padding: 10px 20px;
+}
+
+.login:hover {
+  background-color: #4CAF4F;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1152px;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
